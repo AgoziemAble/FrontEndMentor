@@ -1,0 +1,43 @@
+.container {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.fl{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 1px;
+}
+
+.flex-item-1{
+    flex-basis: 40%;
+    order: 1;
+}
+
+.flex-item-2{
+    order: 2;
+}
+
+.flex-item-3{
+    order: 3;
+}
+
+.flex-item-4{
+    order: 4;
+}
+
+@media (min-width: 500px) {
+        
+    .flex-item-2{
+        order: 1;
+    }
+    .flex-item-1{
+        order: 2;
+    }
+    
+}
